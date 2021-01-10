@@ -11,7 +11,7 @@ Below is a histogram of our simulated values:
 
 ![](/images/simulated-insurance-claims.png)
 
-*Why use the Pareto distribution to simulate individual insurance claims?* Note that insurance claims are nonnegative and unbounded, so a support of [0,∞) is appropriate. The most important property of the Pareto distribution is that it exhibits fat tails. In insurance, one must account for the possibility of large claims. Most realizations from a Pareto distribution are relatively small, but there are still a significant number of large claims. For example, an exponential distribution is not suitable (the probability of large claims is too small). 
+*Why use the Pareto distribution to simulate individual insurance claims?* Note that insurance claims are nonnegative and unbounded, so a support of [0,∞) is appropriate. The most important property of the Pareto distribution is that it exhibits fat tails. In insurance, one must account for the possibility of large claims. Most realizations from a Pareto distribution are relatively small, but there are still a significant number of large claims. For example, an exponential distribution is not suitable as the probability of large claims is too small. 
 
 ## 
 
