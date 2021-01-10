@@ -12,6 +12,8 @@ invpar that calculates the inverse Pareto CDF 𝐹−1(𝑢) as defined above.
 
 $\hat{a}$
 
+$`a^2+b^2=c^2`$
+
 ***Step 2.*** We create a function rpar which returns n simulated values from a Pareto distribution
 with parameters α, β. The first part of the function generates n random values from a uniform
 
