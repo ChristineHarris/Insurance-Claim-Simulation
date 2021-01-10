@@ -1,11 +1,16 @@
 # Insurance-Claim-Simulation
 
-[Insert brief overview of the analysis]
+In this report, we summarize our simulation of individual claims and its implications on year-end assets and risk of bankruptcy. Additionally, we provide recommendations to the company and considerations for future analysis.
 
+To conduct this analysis, a few assumptions were made:
+*   The probability of a customer making a claim in any one year is 10% 
+*   The probability of a customer filing a claim is independent of their previous claims and independent of other customers’ claims 
+*   Customers do not submit more than one claim per year 
+*   The size of the claims are independent and follow a Pareto distribution with parameters alpha = 3 and Beta = 100,000
 
 ### *Simulating Insurance Claim Sizes*
 
-In this analysis, the inversion method is used to simulate from *X*. The first step is to create a function **invpar** that calculates the inverse Pareto CDF <img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u)">. The second step involves creating a function **rpar** which returns *n* simulated values from a Pareto distribution with parameters α, β. The first part of **rpar** generates *n* random values from a uniform distribution on *(0,1)*, and the second part runs these values through the **invpar** function. 
+In this analysis, the inversion method is used to simulate from *X*. The first step is to create a function **invpar** that calculates the inverse Pareto CDF <img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u)">. The second step involves creating a function **rpar** which returns *n* simulated values from a Pareto distribution with parameters alpha and Beta. The first part of **rpar** generates *n* random values from a uniform distribution on *(0,1)*, and the second part runs these values through the **invpar** function. 
 
 Below is a histogram of our simulated values:
 
