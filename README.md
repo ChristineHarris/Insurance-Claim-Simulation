@@ -11,7 +11,7 @@ A brief summary of our methodology is as follows:
 We use the inversion method to simulate from <img src="https://render.githubusercontent.com/render/math?math=X">. Our first step is to create a function
 *invpar* that calculates the inverse Pareto CDF <img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u)">, where:
 
-<img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u) = \frac{\beta}{(1-u) ^ {\frac{1}{\alpha}}} - \beta">
+<img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u) = \frac{\beta}{(1-u)^{\frac{1}{\alpha}}} - \beta">
 
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
