@@ -14,6 +14,9 @@ $\hat{a}$
 
 $`a^2+b^2=c^2`$
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+
 ***Step 2.*** We create a function rpar which returns n simulated values from a Pareto distribution
 with parameters α, β. The first part of the function generates n random values from a uniform
 
