@@ -18,7 +18,7 @@ Below is a histogram of our simulated values:
 
 **NOTE:** The Pareto distribution is suitable for modeling insurance claims. Insurance claims are nonnegative and unbounded, so a support of [0,∞) is appropriate. The most important property of the Pareto distribution is that it exhibits fat tails. In insurance, one must account for the possibility of large claims. Most realizations from a Pareto distribution are relatively small, but there are still a significant number of large claims. For example, an exponential distribution is not suitable as the probability of large claims is too small. 
 
-### *Simulating Year End Results*
+### *Simulating Year End Results and Probability of Bankruptcy*
 
 In the function **assets1**, we simulate the assets at year-end by doing the following:
 
