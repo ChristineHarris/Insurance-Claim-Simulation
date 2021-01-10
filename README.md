@@ -34,4 +34,4 @@ In this step, we assume that the event of making a claim or not is independent a
 
 ***Step 3.*** The assets at year-end can then be computed as:
 
-<img src="https://render.githubusercontent.com/render/math?math=assets_1 = assets_0 + NC">
+<img src="https://render.githubusercontent.com/render/math?math=assets_1 = assets_0 %2B NC">
