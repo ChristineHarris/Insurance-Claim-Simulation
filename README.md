@@ -19,7 +19,7 @@ In the function **assets1**, we simulate the assets at year-end by doing the fol
 
 *Step 1.* Simulate for each client a value 0 (no claim) or 1 (claim). After all, we assume that each client makes at most 1 claim per year. The probability of having 1 claim is given to be 0.1. To simulate one value from this discrete distribution, we simulate a value from a uniform distribution on (0,1). The {0,1} value can be simulated by plugging the result into the following:
 
-<img src="https://render.githubusercontent.com/render/math?math=g(u) = 1 if u \leq 0.1">
+<img src="https://render.githubusercontent.com/render/math?math=g(u) = 1"> if <img src="https://render.githubusercontent.com/render/math?math=u \leq 0.1">
 
 <img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u)">
 
