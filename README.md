@@ -21,6 +21,6 @@ In the function **assets1**, we simulate the assets at year-end by doing the fol
 
 <img src="https://render.githubusercontent.com/render/math?math=g(u) = 1"> if <img src="https://render.githubusercontent.com/render/math?math=u \leq 0.1">
 
-<img src="https://render.githubusercontent.com/render/math?math=F^{-1}(u)">
+<img src="https://render.githubusercontent.com/render/math?math=g(u) = 0"> if <img src="https://render.githubusercontent.com/render/math?math=u \gt 0.1">
 
 In this step, we assume that the event of making a claim or not is independent across the clients. We sum the binary values indicating whether a client made claim to get the total number of claims (#claims).
