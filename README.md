@@ -36,6 +36,6 @@ In this step, we assume that the event of making a claim or not is independent a
 
 <img src="https://render.githubusercontent.com/render/math?math=assets_1 = assets_0 %2B NC * premium - total claims">, where *NC* represents the number of clients.
 
-The function **assets1** will then return a vector with the assets at year-end for each value of probclaim. Also, when the input premium is a vector, **assets1** returns a vector. We use the function **MCSimul** to generate many assets at year end. This function repeatedly calls assets1 and returns all results. The expected assets at year-end is the mean value of £1.24 million.
+The function **assets1** will then return a vector with the assets at year-end for each value of probclaim. Also, when the input premium is a vector, **assets1** returns a vector. We use the function **MCSimul** to generate many assets at year end. This function repeatedly calls **assets1** and returns all results. The expected assets at year-end is the mean value of £1.24 million.
 
 ***Step 4.*** Lastly, the insurance firm is bankrupt when assets at year-end are negative. Here, we make use of the information that premiums are paid at the start of the year. Assets are therefore nonincreasing throughout the year, so bankruptcy can be assessed by considering the assets at year end. By counting the number of simulations of assets at year-end that are negative and dividing by the total number of simulations, we estimate the probability of bankruptcy at 9.8%.
